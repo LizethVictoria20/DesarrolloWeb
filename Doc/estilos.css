@@ -99,7 +99,6 @@ h2 {
   /* border-top-color: red;
   border-top-width: 15px;
   border-top-style: solid; */
-  border: 1px solid gray;
   border-radius: 10px;
   /* border-top-left-radius: 50px;
   border-top-right-radius: 10px;
@@ -115,6 +114,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 3px 5px 33px #888888;
 }
 .project-course,
 .project-date,
@@ -233,6 +233,7 @@ figure {
   border-radius: 10px;
   overflow: hidden;
   background: #f4fbff;
+  box-shadow: 3px 2px 33px #888888;
 }
 .event img {
   width: 480px;
